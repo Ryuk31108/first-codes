@@ -1,7 +1,7 @@
 #inputs
 def inputs():
     a = int(input("Enter your digit: ")
-    b = input("+,-,*,/,)
+    b = input("+,-,*,/,")
     c = int(input("Enter your digit: ")
 
 #function
