@@ -18,3 +18,4 @@ elif b == '/':
     print (a / c)
     print inputs()
 
+inputs()
