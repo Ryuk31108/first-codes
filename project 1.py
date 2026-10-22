@@ -1,21 +1,13 @@
-#inputs
-def inputs():
-    a = int(input("Enter your digit: ")
-    b = input("+,-,*,/,")
-    c = int(input("Enter your digit: ")
+a = int(input("\033[33mEnter Your Digit\033[0m: "))
+b = (input("\033[33mEnter Your Action +,-,*,/\033[0m: "))
+c = int(input("\033[33mEnter Your Digit\033[0m: "))
 
-#function
-if b == '+':
+# main function
+if b == "+":
     print(a + c)
-    return inputs()
-elif b == '-':
-    print (a - c)
-    return inputs()
-elif b == '*':
-    print (a * c)
-    return inputs()
-elif b == '/':
-    print (a / c)
-    print inputs()
-
-inputs()
+elif b == "-":
+    print(a - c)
+elif b == "*":
+    print(a * c)
+elif b == "/":
+    print(a / c)
